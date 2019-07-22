@@ -9,8 +9,6 @@ import Loader from '../components/widgets/loader';
 import { useSelector, useDispatch } from 'react-redux';
 import * as actions from '../store/actions';
 
-// import PropTypes from 'prop-types';
-
 const SpaceShips = () => {
   const [items, setListItems] = useState();
   const [personCount, setPersonCount] = useState(0);
@@ -82,9 +80,5 @@ const SpaceShips = () => {
     </section>
   );
 };
-
-// SpaceShips.propTypes = {
-//   items: PropTypes.string.isRequired,
-// };
 
 export default SpaceShips;
