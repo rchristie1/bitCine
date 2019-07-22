@@ -1,0 +1,14 @@
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-image: url('../../Assets/images/backgroundImage.jpg');
+  background-position: center;
+  background-size: cover;
+  h1 {
+    font-size: 40px;
+    letter-spacing: 1.08px;
+    text-shadow: -1px -1px 0 yellow, 1px -1px 0 yellow, -1px 1px 0 yellow, 1px 1px 0 yellow;
+  }
+}
